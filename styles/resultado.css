@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+.cabecalho nav {
+  display: flex;
+  justify-content: center;
+  width: 50vh;
+}
+.cabecalho nav button {
+  width: 20vh;
+  background-color: black;
+  border: none;
+  color: #fff;
+  padding: 10px 30px 30px 30px;
+  border-radius: 0 0 100px 100px;
+}
+.cabecalho nav button:hover {
+  background-color: red;
+  color: black;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+main .cats {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+}
+main .cats h2 {
+  font-size: 20vh;
+}
+main .cats p {
+  font-size: 20vh;
+}
+main .dogs {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+main .dogs h2 {
+  font-size: 20vh;
+}
+main .dogs p {
+  font-size: 20vh;
+}/*# sourceMappingURL=resultado.css.map */

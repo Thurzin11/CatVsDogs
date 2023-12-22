@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("img/cat-vs-dog.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.principal .votacao {
+  background-color: #fff;
+  width: 70vh;
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  border-top: solid red 15px;
+  border-bottom: solid cyan 15px;
+}
+.principal .votacao .imagemPata .paw {
+  transform: scale(1.5);
+}
+.principal .votacao .titulo {
+  margin-bottom: 30px;
+}
+.principal .votacao .titulo h2 {
+  font-size: 6vh;
+}
+.principal .votacao .animais {
+  display: flex;
+  flex-direction: column;
+}
+.principal .votacao .animais .dogs {
+  background-color: red;
+}
+.principal .votacao .animais .cats {
+  background-color: cyan;
+}
+.principal .votacao .animais button {
+  cursor: pointer;
+  margin: 7px;
+  border: none;
+  width: 50vh;
+  padding: 18px;
+  border-radius: 10px;
+  color: #fff;
+}
+.principal .votacao .resultado button {
+  margin-top: 50px;
+  border: none;
+  width: 50vh;
+  padding: 18px;
+  border-radius: 10px;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */

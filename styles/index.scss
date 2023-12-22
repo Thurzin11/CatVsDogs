@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('img/cat-vs-dog.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+    .votacao {
+        background-color: #fff;
+        width: 70vh;
+        height: 96vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 40px;
+        border-top: solid red 15px;
+        border-bottom: solid cyan 15px;
+
+        .imagemPata{
+            .paw{
+                transform: scale(1.5);
+            }
+        }
+
+        .titulo{
+            margin-bottom: 30px;
+            h2{
+                font-size: 6vh;
+            }
+        }
+
+        .animais {
+            display: flex;
+            flex-direction: column;
+            
+            .dogs {
+                background-color: red;
+            }
+            
+            .cats {
+                background-color: cyan;
+            }
+            
+            button {
+                cursor: pointer;
+                margin: 7px;
+                border: none;
+                width: 50vh;
+                padding: 18px;
+                border-radius: 10px;
+                color: #fff;
+            }
+        }
+
+        .resultado {
+            button{
+                margin-top: 50px;
+                border: none;
+                width: 50vh;
+                padding: 18px;
+                border-radius: 10px;
+                background-color: blue;
+                color: #fff;
+                cursor: pointer;
+            }
+            
+        }
+    }
+
+}
